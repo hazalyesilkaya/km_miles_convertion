@@ -33,8 +33,8 @@ def convert_to_km():
         result_label.config(text="Please enter a number.")
 
 
-convert_icon = PhotoImage(file="img/convert.png").subsample(5, 5)
-road_img = PhotoImage(file="img/road.png")
+convert_icon = PhotoImage(file="../img/convert.png").subsample(5, 5)
+road_img = PhotoImage(file="../img/road.png")
 img = Label(image=road_img, height=120, width=250)
 img.place(x=25, y=50, width=250, height=120)
 
